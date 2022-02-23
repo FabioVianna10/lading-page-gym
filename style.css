@@ -5,7 +5,12 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    
 
+}
+body{
+    width: 100%;
+    
 }
 
 
@@ -20,7 +25,7 @@ html{
     align-items: center;
     padding: 15px;
     background-color: yellowgreen;
-    width: 100vw;
+    
 }
 
 ul{
@@ -30,10 +35,11 @@ ul{
 }
 
 li,a{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     text-decoration: none;
     color: black;
     transition: 300ms;
+    font-weight: 400;
 
 }
 
@@ -145,6 +151,155 @@ input:hover{
 
 .contato{
     font-size: 1.1rem;
+}
+
+
+
+/*-----------RESPONSIVIDADE-----------------*/
+
+
+@media(max-width: 350px){
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 15px;
+        background-color: yellowgreen;
+        
+    }
+    
+    ul{
+        display: flex;
+        list-style: none;
+        gap: .6rem;
+    }
+    
+    li,a{
+        font-size: 0.8rem;
+        text-decoration: none;
+        color: black;
+        transition: 300ms;
+        font-weight: 400;
+    
+    }
+    
+    P{
+        font-weight: bold;
+       
+    }
+    
+    li:hover{
+        border-bottom: 2px solid rgba(255, 255, 255, 0.753);
+        color: rgba(0, 0, 0, 0.63);
+    
+    }
+    
+    .imagem{
+        display: flex;
+        flex-basis: 100%;
+        height: 100vh;
+        width: 100%;
+        background-image: url(assets/47_Academia_IMG_0657.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+    
+    h3{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 1.1rem;
+    
+    }
+    
+    .sectionInput{
+    
+     
+        
+        height: 350px;
+        background-color: rgb(241, 238, 238);
+        padding: 25px;
+    }
+    
+    .box{
+      
+    
+      
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        margin-bottom: 15px;
+       
+        
+      
+    }
+    
+    input{
+        height: 60px;
+        width: 95%;
+        border: none;
+        outline: none;
+    
+    
+      
+    }
+    
+    button{
+        height: 60px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 1rem;
+        
+    
+       
+    
+    }
+    
+    button:hover{
+       background-color: black;
+       color: white;
+       font-weight: bold;
+    
+       
+    
+    }
+    
+    input:hover{
+        background-color: rgba(240, 248, 255, 0.692);
+    
+      
+    }
+    
+    
+    .rodape{
+       
+        padding: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 20vh;
+        gap:3px;
+        background-color: yellowgreen;
+    
+    
+    
+    }
+    
+    .contato{
+        font-size: .4rem;
+    }
+
+    .linkedin{
+        width: 8px;
+     
+    }
+    
 }
     
 
