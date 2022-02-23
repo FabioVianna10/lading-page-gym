@@ -1,554 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 
 }
 
-body{
-    background-image: url(assets/academia-1024x683.jpg);
+
+
+html{
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: yellowgreen;
+    width: 100vw;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1.7rem;
+}
+
+li,a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    transition: 300ms;
+
+}
+
+P{
+    font-weight: bold;
+   
+}
+
+li:hover{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.753);
+    color: rgba(0, 0, 0, 0.63);
+
+}
+
+.imagem{
+    display: flex;
+    flex-basis: 100%;
+    height: 100vh;
+    width: 100%;
+    background-image: url(assets/47_Academia_IMG_0657.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
-
-
-.container{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap:40px;
-   
-    
-    
-  
-  
-    
-}
-
-#telFixo{
-    color: #fff;
-    font-weight: bold;
-    font-size: 1.5em;
-
-
-
-}
-
-#zap{
-   
-   
-    color: #fff;
-    font-weight: bold;
-    font-size: 1.5em;
-    text-decoration: none;
-
-
-
-}
-
-.img{
-    height: 26px;
-    width: 25px;
-    margin-top: 20px
-}
-
-
-
-
-
-#meio{
-    color:  #fff;
+h3{
     text-align: center;
-    font-weight: bold;
-    margin-top: -60px;
+    margin-top: 30px;
+    font-size: 2rem;
+
+}
+
+.sectionInput{
+
+ 
     
-
+    height: 350px;
+    background-color: rgb(241, 238, 238);
+    padding: 25px;
 }
-
-#parag{
-
-    margin-top: 100px;
-    font-size: 2.5em;
-    color: #fff;
-    font-weight: bold;
-    margin-bottom:70px;
-
-}
-
-section h1{
-    font-size: 3em;
-}
-
-section h3{
-    font-size: 2.3em;
-}
-
-section h2{
-    font-size: 2.5em;
-}
-
-
-.containerForm{
-    display: flex;
-    justify-content: center;
-
-    
-}
-form{
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(8, 8, 8, 0.801);
-    padding: 15px;
-    border-radius: 15px;
-    width: 400px;
-    height: 510px;
-    text-align: center;
-    color: #fff;
-    
-
-}
-
-label{
-    font-weight: 700;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    color: rgb(100, 212, 175);
-
-}
-
 
 .box{
-    margin: 5px;
-    padding: 10px;
+  
+
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 15px;
+   
+    
+  
+}
+
+input{
+    height: 60px;
+    width: 30%;
     border: none;
-    border-bottom:solid rgb(27, 26, 26);
-    border-radius: 8px;
     outline: none;
-    margin-bottom: 5px;
-    width: 90%;
+
+
+  
 }
 
-#btnF{
-    margin-top: 15px;
-    padding: 10px;
-    height: 65px;
-    
-    
-    color: #fff;
+button{
+    height: 60px;
+    width: 10%;
+    border: none;
+    cursor: pointer;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(100, 212, 175);
-    border-radius: 8px;
+    font-size: 1rem;
+    
+
+   
 
 }
 
+button:hover{
+   background-color: black;
+   color: white;
+   font-weight: bold;
 
-@media(max-width: 770px){
+   
 
-    .container{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        gap:30px;
-       
-        
-        
-      
-      
-        
-    }
-    
-    #telFixo{
-        color: #fff;
-        font-weight: bold;
-        font-size: 1.4em;
-    
-    
-    
-    }
-    
-    #zap{
-       
-       
-        color: #fff;
-        font-weight: bold;
-        font-size: 1.4em;
-        text-decoration: none;
-    
-    
-    
-    }
-    
-    .img{
-        height: 26px;
-        width: 25px;
-        margin-top: 20px
-    }
-    
-    
-    
-    
-    
-    #meio{
-        color:  #fff;
-        text-align: center;
-        font-weight: bold;
-        margin-top: -50px;
-        font-size: 1em;
-        
-    
-    }
-    
-    #parag{
-    
-        margin-top: 100px;
-        font-size: 2em;
-        color: #fff;
-        font-weight: bold;
-        margin-bottom:70px;
-    
-    }
-    
-    section h1{
-        font-size: 3em;
-    }
-    
-    section h3{
-        font-size: 2.3em;
-    }
-    
-    section h2{
-        font-size: 2.5em;
-    }
-    
-    
-    .containerForm{
-        display: flex;
-        justify-content: center;
-    
-        
-    }
-    form{
-        display: flex;
-        flex-direction: column;
-        background-color: rgba(8, 8, 8, 0.801);
-        padding: 15px;
-        border-radius: 15px;
-        width: 400px;
-        height: 510px;
-        text-align: center;
-        color: #fff;
-        
-    
-    }
-    
-    label{
-        font-weight: 700;
-        font-size: 1.5em;
-        margin-bottom: 10px;
-        color: rgb(100, 212, 175);
-    
-    }
-    
-    
-    .box{
-        margin: 5px;
-        padding: 10px;
-        border: none;
-        border-bottom:solid rgb(27, 26, 26);
-        border-radius: 8px;
-        outline: none;
-        margin-bottom: 5px;
-        width: 90%;
-    }
-    
-    #btnF{
-        margin-top: 15px;
-        padding: 10px;
-        height: 65px;
-        
-        
-        color: #fff;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(100, 212, 175);
-        border-radius: 8px;
-    
-    }
+}
+
+input:hover{
+    background-color: rgba(240, 248, 255, 0.692);
+
+  
+}
+
+
+.rodape{
+   
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    gap: 15rem;
+    background-color: yellowgreen;
+
 
 
 }
 
-
-
-@media(max-width: 430px){
-
-    .container{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        gap:20px;
-       
-        
-        
-      
-      
-        
-    }
-    
-    #telFixo{
-        color: #fff;
-        font-weight: bold;
-        font-size: 1.3em;
-    
-    
-    
-    }
-    
-    #zap{
-       
-       
-        color: #fff;
-        font-weight: bold;
-        font-size: 1.2em;
-        text-decoration: none;
-    
-    
-    
-    }
-    
-    .img{
-        height: 26px;
-        width: 25px;
-        margin-top: 20px
-    }
-    
-    
-    
-    
-    
-    #meio{
-        color:  #fff;
-        text-align: center;
-        font-weight: bold;
-        margin-top: -20px;
-        font-size: 0.8em;
-        
-    
-    }
-    
-    #parag{
-    
-        margin-top: 100px;
-        font-size: 1.6em;
-        color: #fff;
-        font-weight: bold;
-        margin-bottom:70px;
-    
-    }
-    
-    section h1{
-        font-size: 3em;
-    }
-    
-    section h3{
-        font-size: 2.3em;
-    }
-    
-    section h2{
-        font-size: 2.5em;
-    }
-    
-    
-    .containerForm{
-        display: flex;
-        justify-content: center;
-    
-        
-    }
-    form{
-        display: flex;
-        flex-direction: column;
-        background-color: rgba(8, 8, 8, 0.801);
-        padding: 15px;
-        border-radius: 15px;
-        width: 320px;
-        height: 510px;
-        text-align: center;
-        color: #fff;
-        
-    
-    }
-    
-    label{
-        font-weight: 700;
-        font-size: 1.3em;
-        margin-bottom: 10px;
-        color: rgb(100, 212, 175);
-    
-    }
-    
-    
-    .box{
-        margin: 5px;
-        padding: 8px;
-        border: none;
-        border-bottom:solid rgb(27, 26, 26);
-        border-radius: 8px;
-        outline: none;
-        margin-bottom: 5px;
-        width: 90%;
-    }
-    
-    #btnF{
-        margin-top: 15px;
-        padding: 9px;
-        height: 65px;
-        
-        
-        color: #fff;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(100, 212, 175);
-        border-radius: 8px;
-    
-    }
-
-
+.contato{
+    font-size: 1.1rem;
 }
+    
 
 
-@media(max-width: 350px){
-
-    .container{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        gap:10px;
-       
-        
-        
-      
-      
-        
-    }
-    
-    #telFixo{
-        color: #fff;
-        font-weight: bold;
-        font-size: 0.9em;
-    
-    
-    
-    }
-    
-    #zap{
-       
-       
-        color: #fff;
-        font-weight: bold;
-        font-size: 1em;
-        text-decoration: none;
-    
-    
-    
-    }
-    
-    .img{
-        height: 20px;
-        width: 18px;
-        margin-top: 20px
-    }
-    
-    
-    
-    
-    
-    #meio{
-        color:  #fff;
-        text-align: center;
-        font-weight: bold;
-        margin-top: 50px;
-        font-size: 0.5em;
-        
-    
-    }
-    
-    #parag{
-    
-        margin-top: 100px;
-        font-size: 1.9em;
-        color: #fff;
-        font-weight: bold;
-        margin-bottom:70px;
-    
-    }
-    
-    section h1{
-        font-size: 3em;
-    }
-    
-    section h3{
-        font-size: 2.3em;
-    }
-    
-    section h2{
-        font-size: 2.5em;
-    }
-    
-    
-    .containerForm{
-        display: flex;
-        justify-content: center;
-    
-        
-    }
-    form{
-        display: flex;
-        flex-direction: column;
-        background-color: rgba(8, 8, 8, 0.801);
-        padding: 15px;
-        border-radius: 15px;
-        width: 260px;
-        height: 490px;
-        text-align: center;
-        color: #fff;
-        
-    
-    }
-    
-    label{
-        font-weight: 700;
-        font-size: 1.1em;
-        margin-bottom: 10px;
-        color: rgb(100, 212, 175);
-    
-    }
-    
-    
-    .box{
-        margin: 5px;
-        padding: 8px;
-        border: none;
-        border-bottom:solid rgb(27, 26, 26);
-        border-radius: 8px;
-        outline: none;
-        margin-bottom: 5px;
-        width: 90%;
-    }
-    
-    #btnF{
-        margin-top: 15px;
-        padding: 9px;
-        height: 65px;
-        
-        
-        color: #fff;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(100, 212, 175);
-        border-radius: 8px;
-    
-    }
-
-
-}
