@@ -166,7 +166,7 @@ input:hover{
         justify-content: space-around;
         align-items: center;
         padding: 15px;
-        background-color: yellowgreen;
+        background-color: #B5FE83;
         
     }
     
@@ -219,7 +219,7 @@ input:hover{
      
         
         height: 350px;
-        background-color: rgb(241, 238, 238);
+        background-color: #FFF1BD;
         padding: 25px;
     }
     
@@ -310,7 +310,7 @@ input:hover{
         justify-content: space-around;
         align-items: center;
         padding: 10px;
-        background-color: yellowgreen;
+        background-color: #B5FE83;
         
     }
     
@@ -363,7 +363,7 @@ input:hover{
      
         
         height: 350px;
-        background-color: rgb(241, 238, 238);
+        background-color: #FFF1BD;
         padding: 20px;
     }
     
@@ -454,8 +454,8 @@ input:hover{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: 5px;
-        background-color: yellowgreen;
+        padding: 8px;
+        background-color: #B5FE83;
         
     }
     
@@ -508,7 +508,7 @@ input:hover{
      
         
         height: 350px;
-        background-color: rgb(241, 238, 238);
+        background-color: #FFF1BD;
         padding: 20px;
     }
     
